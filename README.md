@@ -1,4 +1,4 @@
-Xbmc Wrapper
+﻿Xbmc Wrapper
 =========
 
 Xbmc Wrapper is an ultra-minimalistic wrapper for the XBMC JSON-RPC API. Unlike other wrappers, functions are generated dynamically from the services JSONRPC.Introspect endpoint
@@ -39,7 +39,7 @@ Full specification of the XBMC JSON-RPC available functions can be found [here].
 Version
 ----
 
-0.88
+1.0.0
 
 Dependencies
 -----------

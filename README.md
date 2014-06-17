@@ -20,12 +20,17 @@ var config = {
 }
 var xbmc = require('Xbmc-Wrapper');
 var parameters = {
-  //see JSONRPC documentation for what options there are
-}
+    //See JSON-RPC documentation for full list of available parameters
+    'properties': [
+        "title",
+        "genre",
+        "year",
+        "rating"
+    ]
+};
 xbmc.VideoLibrary.GetMovies(parameters, function(retVal) {
   //callback
 });
-
 ```
 
 Full specification of the XBMC JSON-RPC available functions can be found [here].

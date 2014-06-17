@@ -28,6 +28,8 @@ xbmc.VideoLibrary.GetMovies(parameters, function(retVal) {
 
 ```
 
+Full specification of the XBMC JSON-RPC available functions can be found [here].
+
 
 Version
 ----
@@ -49,3 +51,4 @@ The MIT License (MIT)
 [Request]:https://github.com/mikeal/request
 [mikeal]:https://github.com/mikeal
 [VideoLibrary.GetMovies]:http://wiki.xbmc.org/?title=JSON-RPC_API/v6#VideoLibrary.GetMovies
+[here]:http://wiki.xbmc.org/?title=JSON-RPC_API/v6

@@ -14,9 +14,9 @@ Example
 To call the [VideoLibrary.GetMovies] function
 ```JavaScript
 var config = {
-	"XbmcHost": "127.0.0.1",
-	"XbmcPort": 8081,
-	"DebugLogging": true
+  XbmcHost: "127.0.0.1",
+  XbmcPort: 8081,
+  DebugLogging: true
 }
 var xbmc = require('Xbmc-Wrapper');
 //See JSON-RPC documentation for full list of available parameters

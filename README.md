@@ -19,14 +19,14 @@ var config = {
 	"DebugLogging": true
 }
 var xbmc = require('Xbmc-Wrapper');
+//See JSON-RPC documentation for full list of available parameters
 var parameters = {
-    //See JSON-RPC documentation for full list of available parameters
-    'properties': [
-        "title",
-        "genre",
-        "year",
-        "rating"
-    ]
+  properties: [
+    "title",
+    "genre",
+    "year",
+    "rating"
+  ]
 };
 xbmc.VideoLibrary.GetMovies(parameters, function(retVal) {
   //callback
